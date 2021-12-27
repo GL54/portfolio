@@ -97,7 +97,7 @@ body {
   position: relative;
   transform: translate(500px, 500px);
 }
-.icon:link {
+.icon{
   color: black;
   background-color: transparent;
   text-decoration: none;
@@ -122,7 +122,7 @@ body {
   font-weight: bold;
   top: 5px;
 }
-.hire:link {
+.hire {
   color: rgb(243, 243, 243);
   background-color: transparent;
   text-decoration: none;
