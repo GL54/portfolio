@@ -201,6 +201,24 @@ body {
   color: rgb(3, 187, 243);
 }
 
-@media (max-width:820px){
-  
+@media screen and (max-width: 700px) {
+  .GoToCenter {
+    left: 25%;
+  }
+
+  .dropdown {
+    transform: translate(3px, 350px);
+  }
+
+  .hire {
+    right: -300px;
+  }
+  .icons {
+    transform: translate(5px, 600px);
+  }
+
+  .cv {
+    right: 150px;
+    bottom: 220px;
+  }
 }
