@@ -201,13 +201,23 @@ body {
   color: rgb(3, 187, 243);
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1080px) {
+  .logo-header {
+    position: absolute;
+    display: flex;
+    gap: 5px;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
   .GoToCenter {
-    left: 25%;
+    left: 28%;
   }
 
   .dropdown {
-    transform: translate(3px, 350px);
+    transform: translate(15px, 350px);
   }
 
   .hire {
@@ -222,3 +232,4 @@ body {
     bottom: 220px;
   }
 }
+
