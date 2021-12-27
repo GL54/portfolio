@@ -62,31 +62,145 @@ a {
   text-decoration: none;
 }
 
-.name {
-  position: relative;
-  color: azure;
-  right: -30%;
-  bottom: -30%;
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+a {
+  text-decoration: none;
 }
 
-.profile {
-  height: 250px;
-  width: 250px;
-  object-fit: cover;
-  border-radius: 100%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  transform: translate(0px, 100px);
+body {
+  background-color: #212529;
+}
+.GoToCenter {
+  position: absolute;
+  top: 50%;
+  left: 48%;
+  margin: -35px 0 0 -100px;
+  text-align: left;
 }
 
-.container {
+#typewritter-text {
+  font-family: Anonymous Pro, monospace, Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  color: rgb(75, 197, 38);
+}
+
+#pre-typewritter-text {
+  font-family: Anonymous Pro, monospace, Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+}
+.icons {
   display: flex;
-  gap: 80px;
-  transform: translate(35%, 120px);
+  gap: 50px;
+  font-size: 40px;
+  position: relative;
+  transform: translate(500px, 500px);
 }
-.pic {
-  height: 50px;
-  width: 50px;
-  border-radius: 30%;
+.icon:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.icon:hover {
+  color: #fff;
+}
+
+.skills {
+  color: white;
+  position: relative;
+  right: -30%;
+  bottom: -80%;
+}
+
+.hire {
+  position: relative;
+  font-size: 25px;
+  right: -1260px;
+  font-family: sans-serif;
+  font-weight: bold;
+  top: 5px;
+}
+.hire:link {
+  color: rgb(243, 243, 243);
+  background-color: transparent;
+  text-decoration: none;
+}
+.hire:hover {
+  color: rgb(255, 255, 255);
+}
+
+.n {
+  position: absolute;
+  color: #fff;
+  font-size: 30px;
+  left: 20px;
+}
+
+.cv {
+  position: absolute;
+  color: white;
+  background-color: rgb(20, 8, 8);
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  display: inline-block;
+  margin: 30px 0;
+  padding: 10px 18px;
+  right: 675px;
+  bottom: 220px;
+}
+.cv:hover {
+  color: rgb(20, 8, 8);
+  background-color: white;
+}
+
+.dropdown {
+  position: absolute;
+  display: inline-block;
+  color: white;
+  font-size: 30px;
+  transform: translate(600px);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #212529;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.wp {
+  position: absolute;
+  left: 25px;
+  top:-20px;
+}
+.wp:hover {
+  color: rgb(32, 248, 24);
+}
+.top {
+  display: flex;
+  padding-top: 20px;
+}
+
+.dropdown:first-letter {
+  color: rgb(50, 255, 9);
+}
+.n:first-letter {
+  color: rgb(255, 0, 0);
+}
+.hire:first-letter {
+  color: rgb(3, 187, 243);
+}
+
+@media (max-width:820px){
+  
 }
