@@ -24,16 +24,14 @@ body {
 
 .logo-header {
   position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(45vw, 50vh);
   color: white;
 }
 
 .logo {
   position: relative;
   display: inline-block;
-  bottom: -20px;
+  bottom: -5vw;
   opacity: 0;
 }
 
@@ -244,7 +242,7 @@ canvas {
     font-weight: bold;
   }
   .GoToCenter {
-    right: 1vw;
+    transform: translate(0, 0);
   }
   /* .wp{
     top:-4vw;
@@ -278,7 +276,7 @@ canvas {
 
   .dropdown {
     position: relative;
-    transform: translate(40vw,10vh);
+    transform: translate(40vw, 10vh);
     font-size: 4vw;
   }
 
